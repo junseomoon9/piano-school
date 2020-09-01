@@ -10,9 +10,13 @@ body {
 header {
     display: flex;
     width: 90%;
-    height: 10vh;
+    height: 15vh;
     margin: auto;
     align-items: center;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .logo-container {
@@ -45,8 +49,8 @@ nav {
 .nav-link {
     text-decoration: none;
     font-weight: 600;
-    font-size: 16px;
-    color: #660066;
+    font-size: 18px;
+    color: #990099;
 }
 
 .nav-link:hover{
@@ -58,11 +62,104 @@ nav {
     padding: 10px 10px;
     border-radius: 10px;
     border-style: solid;
-    border-color: #660066;
-    color: #660066;
+    border-color: #990099;
+    color: #990099;
 }
 
 .book:hover {
     background:  #660066;
     color: #ffffff;
+}
+
+.introduction {
+    background-image: url(img/piano-main.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text{
+    text-align: center;
+    padding: 0 20px;
+}
+
+.intro-text h1{
+    font-weight: 700;
+    font-size: 70px;
+    color: #800080;
+
+    background: linear-gradient(to right, #cc00cc, #990099);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro-text h2{
+    font-size: 35px;
+    margin: 10px 0px 50px 0px;
+    color: white;
+    -webkit-text-stroke: 1px black; /* width and color */
+}
+
+.home-book-btn {
+    
+    padding: 20px 20px;
+    font-weight: 600;
+    font-size: 24px;
+    border-radius: 10px;
+    background:  #990099;
+    color: #ffffff;
+}
+
+.home-book-btn:hover {
+    background: #660066;
+}
+
+#about {
+    width: 95%;
+    margin: 60px auto;
+    display:flex;
+}
+
+.about-container {
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    padding: 15px 25px;
+    align-items: center;
+}
+
+.about-container h1 {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.about-container p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.piano-teacher-img {
+    height: 70vh;
+    padding: 15px 25px;
+}
+
+.learn-more-btn {
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #990099;
+    border: solid;
+    border-color: #990099;
+}
+
+.learn-more-btn:hover {
+    background: #990099;
+    color: #ffffff;
+    cursor: pointer;
 }
