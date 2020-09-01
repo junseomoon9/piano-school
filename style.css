@@ -2,5 +2,67 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body {
     font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.logo-container img{
+    height: 50px;
+    background: transparent;
+}
+
+.logo-container h4{
+    margin-left: 15px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+nav {
+    width: 50%;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #660066;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.book{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #660066;
+    color: #660066;
+}
+
+.book:hover {
+    background:  #660066;
+    color: #ffffff;
 }
