@@ -1,2 +1,2 @@
 # piano-school
-A sample piano school business website 
+A sample piano teaching business website 
