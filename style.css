@@ -224,14 +224,14 @@ button {
 */
 
 #services {
-    background: #f5ffff;
+    background: #faf6f5;
     height: 120vh;
     text-align: center;
 }
 
 #services h1{
     padding: 30px;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 35px;
 }
 
@@ -251,12 +251,13 @@ button {
 
 .service h2 {
     padding: 15px;
+    font-weight: 500;
 }
 
 .service img{
     height: 35vh;
     padding-bottom: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .service p {
