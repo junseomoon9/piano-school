@@ -7,6 +7,7 @@
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <link rel='stylesheet' href='style.css'>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     </head>
     <body>
         <header>
@@ -21,6 +22,9 @@
                     </li>
                     <li>
                         <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
                     </li>
                     <li>
                         <a class="nav-link" href="#contact">Contact</a>
@@ -70,6 +74,59 @@
                     </div>
                 </div>
             </section>
+            <section id="testimonials">
+                <h1>Testimonials</h1>
+                <!-- Slider main container -->
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide img1">
+                            <div class="image">
+                                <img src="img/headshot-1.jpg">
+                            </div>
+                            <h2>Rose Taylor</h2>
+                            <h4>Student, Classical Piano</h4>
+                            <p>
+                                The benefits I have received by taking classical piano lessons from Melody Music has been terrific! Within the 2+ years, every lesson was exciting and inspiring
+                                and the teachers I had were all great.
+                            </p>
+                        </div>
+                        <div class="swiper-slide img2">
+                            <div class="image">
+                                <img src="img/headshot.jpg">
+                            </div>
+                            <h2>Dave Smith</h2>
+                            <h4>Student, Jazz Piano</h4>
+                            <p>
+                                I would say that the benefits of taking jazz lessons with Melody Music were that I had somebody to constantly motivate me from a level I wanted to be at. Someone 
+                                who knew what I wanted to learn and helped me.
+                            </p>
+                        </div>
+                        <div class="swiper-slide img3">
+                            <div class="image">
+                                <img src="img/headshot3.jpg">
+                            </div>
+                            <h2>Marcia Adams</h2>
+                            <h4>Student, Jazz Piano</h4>
+                            <p>
+                                Melody Music has taught me so much about Jazz Music, such as rhythm, feel and improvisation. I will be continuing to take their lessons and improve my piano skills!
+                            </p>
+                        </div>
+                        
+                    </div>
+                    
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </section>
             <section id="contact">
                 <div class="contact-container">
                     <div class="contactForm">
@@ -108,5 +165,8 @@
             </section>
 
         </main>
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+        <script src="app.js"></script>
     </body>
 </html>
